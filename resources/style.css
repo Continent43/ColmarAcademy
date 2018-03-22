@@ -25,6 +25,11 @@ header{
   justify-content: space-between;
   z-index: 30;
 }
+
+.mobile{
+  display: none;
+}
+
 .colmar{
     font-weight: bold;
 }
@@ -295,6 +300,8 @@ footer {
   background-color: #89A5B2;
 }
 
+
+
 @media only screen and (max-width: 600px) {
   .flex .logo{
     display: none;
@@ -433,7 +440,3 @@ footer {
 
 
 }
-@media only screen and (min-width: 600px) {
-  .mobile{
-    display: none;
-  }
